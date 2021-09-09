@@ -6,7 +6,7 @@ public class Signup_page {
 
 
     //functions
-    public void enterfirstname(){
+    public static void enterfirstname(){
         // until wait
         //driver.findelement
     }
