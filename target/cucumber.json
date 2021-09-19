@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-19T02:28:43.866Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8303739000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to Sign Up with the valid email adress",
+        "description": "",
+        "id": "talenttek-sign-up-feature-test-suite.;user-should-be-able-to-sign-up-with-the-valid-email-adress",
+        "after": [
+          {
+            "result": {
+              "duration": 1152000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hook.browserclose(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45321000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at talentTek home page",
+            "match": {
+              "location": "stepdefinations.SignIn.iminhomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468596000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on create New Account button",
+            "match": {
+              "location": "stepdefinations.SignIn.iclicreatnewaccountbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I enter student information with valid email adress",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I enter student\u0027s  date of birth",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter  student gender as female",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I agree with the form",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click Create my account button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I should be able to get an student id",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@prod"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "TalentTek Sign Up feature test suite.",
+    "description": "",
+    "id": "talenttek-sign-up-feature-test-suite.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/signup/SignUp.feature",
+    "tags": []
+  }
+]

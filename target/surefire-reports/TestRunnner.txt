@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestRunnner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.988 s <<< FAILURE! - in TestRunnner
+TestRunnner.runScenario["User should be able to Sign Up with the valid email adress", "Optional[TalentTek Sign Up feature test suite.]"](1)  Time elapsed: 9.09 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I enter student information with valid email adress' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I enter student information with valid email adress")
+public void i_enter_student_information_with_valid_email_adress() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I enter student's  date of birth")
+public void i_enter_student_s_date_of_birth() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I enter  student gender as female")
+public void i_enter_student_gender_as_female() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I agree with the form")
+public void i_agree_with_the_form() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click Create my account button")
+public void i_click_create_my_account_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should be able to get an student id")
+public void i_should_be_able_to_get_an_student_id() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

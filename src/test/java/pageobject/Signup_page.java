@@ -1,14 +1,17 @@
 package pageobject;
 
+import base.Config;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
 public class Signup_page {
-    //locators
+    public Signup_page(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+        Config.driver = driver;
+        //locators
 
 
-
-    //functions
-    public static void enterfirstname(){
-        // until wait
-        //driver.findelement
+        //functions
     }
 
 }

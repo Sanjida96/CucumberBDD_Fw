@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="481ffb72-58d1-4f85-bd2d-96b33fbdce7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunnner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobject/Signin_page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinations/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinations/SignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/feature/login/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/login/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/feature/signup/SignUp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/feature/signup/SignUp.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobject/Signup_page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject/Signup_page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinations/Talentteksignupsteps.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,15 +39,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wre1RpDOji4aeeyZfpcDGZwTdr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,5 +75,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
