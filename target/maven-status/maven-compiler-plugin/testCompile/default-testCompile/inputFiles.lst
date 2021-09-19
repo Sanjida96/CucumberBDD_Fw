@@ -2,5 +2,6 @@
 /Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/pageobject/Signin_page.java
 /Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/pageobject/Signup_page.java
 /Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/TestRunnner.java
+/Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/stepdefinations/SignUp.java
 /Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/stepdefinations/Hook.java
 /Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/stepdefinations/SignIn.java

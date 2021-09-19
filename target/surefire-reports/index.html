@@ -131,50 +131,12 @@
                   </a> <!-- runScenario("User should be able to Sign Up with the valid email adress", "Optional[TalentTek Sign Up feature te...) -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User should be able to Sign Up with the valid email adress", "Optional[TalentTek Sign Up feature test suite.]")</span>
-                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;I enter student information with valid email adress&apos; and 5 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given(&quot;I enter student information with valid email adress&quot;)
-public void i_enter_student_information_with_valid_email_adress() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Given(&quot;I enter student&apos;s  date of birth&quot;)
-public void i_enter_student_s_date_of_birth() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Given(&quot;I enter  student gender as female&quot;)
-public void i_enter_student_gender_as_female() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Given(&quot;I agree with the form&quot;)
-public void i_agree_with_the_form() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;I click Create my account button&quot;)
-public void i_click_create_my_account_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;I should be able to get an student id&quot;)
-public void i_should_be_able_to_get_an_student_id() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:118)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-... Removed 12 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: expected [Validation error] but found [➥Validation Errors
+Th]
+	at pageobject.Signup_page.asserterrorMessage(Signup_page.java:129)
+	at stepdefinations.SignUp.ienterstudentinformationwithvalidEmailAdress(SignUp.java:38)
+	at ✽.I enter student information with valid email adress(file:///Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/feature/signup/SignUp.feature:6)
+... Removed 6 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
@@ -245,7 +207,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'TestRunnner')
-data.setCell(0, 3, 9062);
+data.setCell(0, 3, 9675);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
@@ -285,11 +247,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("User should be able to Sign Up with the valid email adress", "Optional[TalentTek Sign Up feature te...)</span>
-                <span class="method-start">383 ms</span>
+                <span class="method-start">350 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">9452 ms</span>
+                <span class="method-start">10032 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

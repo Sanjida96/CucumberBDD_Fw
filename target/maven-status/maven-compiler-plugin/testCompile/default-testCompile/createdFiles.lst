@@ -1,6 +1,7 @@
-pageobject/Signin_page.class
 stepdefinations/Hook.class
-pageobject/Signup_page.class
+stepdefinations/SignUp.class
 stepdefinations/SignIn.class
+pageobject/Signin_page.class
+pageobject/Signup_page.class
 base/Config.class
 TestRunnner.class

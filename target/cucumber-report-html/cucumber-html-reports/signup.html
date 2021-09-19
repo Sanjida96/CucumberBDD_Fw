@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>CucumberBDD_Fw</td>
                           <td>1</td>
-                        <td>18 Sep 2021, 22:28</td>
+                        <td>19 Sep 2021, 03:13</td>
           </tr>
         </tbody>
       </table>
@@ -123,17 +123,17 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@signup</td>
-                    <td  class="passed"    >1</td>
-          <td >0</td>
+                    <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
           <td      class="passed"    >2</td>
-          <td >0</td>
+          <td      class="failed"    >1</td>
           <td     class="skipped"   >5</td>
           <td >0</td>
-          <td   class="undefined" >1</td>
+          <td >0</td>
           <td class="total">8</td>
-          <td class="duration" data-value="513954000">513ms</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="3176140000">3s 176ms</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -165,9 +165,9 @@ $(document).ready(function() {
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">User should be able to Sign Up with the valid email adress</span>
   
@@ -178,7 +178,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-before">
         <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
@@ -199,7 +199,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">stepdefinations.Hook.openBrowser()</span>
                         
-  <span class="lead-duration duration">8s 303ms</span>
+  <span class="lead-duration duration">5s 927ms</span>
 
           </div>
 
@@ -215,7 +215,7 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
     
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -227,14 +227,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I am at talentTek home page</span>
   
-  <span class="lead-duration duration">045ms</span>
+  <span class="lead-duration duration">055ms</span>
 
   </div>
 
@@ -255,7 +255,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on create New Account button</span>
   
-  <span class="lead-duration duration">468ms</span>
+  <span class="lead-duration duration">588ms</span>
 
   </div>
 
@@ -272,15 +272,37 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief undefined">
+<div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">I enter student information with valid email adress</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">2s 531ms</span>
 
   </div>
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Error message</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>java.lang.AssertionError: expected [Validation error] but found [➥Validation Errors
+Th]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pageobject.Signup_page.asserterrorMessage(Signup_page.java:129)
+	at stepdefinations.SignUp.ienterstudentinformationwithvalidEmailAdress(SignUp.java:38)
+	at ✽.I enter student information with valid email adress(file:///Users/sanjidaafrin/Documents/CucumberBDD_Fw/src/test/java/feature/signup/SignUp.feature:6)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -402,7 +424,7 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -414,13 +436,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">stepdefinations.Hook.browserclose(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">001ms</span>
+  <span class="lead-duration duration">323ms</span>
 
           </div>
 
@@ -428,6 +450,17 @@ $(document).ready(function() {
 
           
           
+  <div class="embeddings inner-level">
+                <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding_embedding_965378648" class="collapsable-control">
+      <a>Attachment 1 (png)</a>
+      <a href="embeddings/embedding_965378648.png" target="_blank"><span class="download-button glyphicon glyphicon-download-alt"></span></a>
+    </div>
+    <div id="embedding_embedding_965378648" class="collapse collapsable-detail">
+      <span class="embedding-content"><img src="embeddings/embedding_965378648.png"></span>
+    </div>
+  </div>
+        </div>
 
         </div>
           </div>
